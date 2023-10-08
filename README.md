@@ -73,7 +73,7 @@ element does not exist
 2
 ```
 
-### Accessing attributes
+#### Accessing attributes
 
 ```py
 >>> print(data['@a'])
@@ -83,7 +83,7 @@ testa
 testb
 ```
 
-### Accessing to elements with namespace
+#### Accessing to elements with namespace
 
 ```py
 >>> print(data['test-ns:example']['#text'])
@@ -91,7 +91,7 @@ example text (namespaced)
 ```
 
 
-### Convert element and its contents to dict
+#### Convert element and its contents to dict
 
 ```py
 >>> data = lxmlasdict.to_dict(data)
