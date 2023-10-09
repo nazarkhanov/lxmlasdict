@@ -1,6 +1,6 @@
 # lxmlasdict
 
-`lxmlasdict` is just wrapper that allows you to treat lxml tree elements as if you were working with a dict. elements are searched only when accessing keys
+`lxmlasdict` is a wrapper that allows you to access lxml tree elements as if you were working with a dict. elements are searched only when accessing keys
 
 ```sh
 pip install lxmlasdict
